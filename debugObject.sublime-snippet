@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+/**
+++++++++++++++++++++
++    DEBUG START   +
+++++++++++++++++++++
+**/
+require_once('C:\Users\salvatored\Documents\GitHub\kint\Kint.class.php'); // Using external debug class
+d(${1:object});
+${2:# code}
+${3:die();}
+/**
+++++++++++++++++++++
++     DEBUG END    +
+++++++++++++++++++++
+**/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>debugObject</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+/**
+ ¯\ _(ツ)_/¯ The following code was poorly documented and is in no way, shape or form coherent.
+**/
+]]></content>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>wtf</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<!-- <scope>source.python</scope> -->
+</snippet>

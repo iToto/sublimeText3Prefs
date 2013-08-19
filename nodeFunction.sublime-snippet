@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+/**
++   \brief ${1:brief}
++
++       ${2:description}
++
++   \author Salvatore D'Agostino
++   \date  ${3:date}
++   \param ${4:paramName}   ${5:paramDescription}
++   \param ${6:paramName}   ${7:paramDescription}
++
++   \return ${8:return}
+**/
+function ${1}(${4},${6})
+{
+    // ${9:code}
+    
+}// END function ${1}
+exports.${1} = ${1};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodeFunction</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

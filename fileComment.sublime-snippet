@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:FileName}
+ *
+ * ${2: File Description}
+ *
+ * @package     ${3:project}
+ * @author      Salvatore D'Agostino
+ * @copyright   Copyright (c) 2013, MiraGeoscience, Inc.
+ **/
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fileComment</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
