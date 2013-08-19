@@ -1,0 +1,23 @@
+[
+{ "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
+{ "keys": ["f1"], "command": "goto_documentation" },
+// Insert datetime using default format text
+{ "keys": ["f5"],                "command": "insert_date" },
+// Insert datetime using the specified format
+{ "keys": ["ctrl+f5", "ctrl+d"], "command": "insert_date", "args": {"format": "%d-%m-%Y"} },
+{ "keys": ["ctrl+f5", "ctrl+t"], "command": "insert_date", "args": {"format": "%X"} },
+{ "keys": ["ctrl+f5", "ctrl+i"], "command": "insert_date", "args": {"format": "iso"} },
+{ "keys": ["ctrl+f5", "ctrl+u"], "command": "insert_date", "args": {"format": "%x %X %Z", "tz_out": "UTC"} },
+// Prompt for user input, "format" would behave as default text
+// and insert the datetime using that format string
+{ "keys": ["alt+f5"],            "command": "insert_date", "args": {"prompt": true} },
+{ "keys": ["ctrl+k","ctrl+s"],   "command": "expand_tabs", "args" : {"set_translate_tabs" : true} },
+
+// Git
+{ "keys": ["ctrl+k","ctrl+g","ctrl+c"],   "command": "git_commit" },
+{ "keys": ["ctrl+k","ctrl+g","ctrl+a"],   "command": "git_add_choice" },
+{ "keys": ["ctrl+k","ctrl+g","ctrl+q"],   "command": "git_quick_commit" },
+{ "keys": ["ctrl+k","ctrl+g","ctrl+p"],   "command": "git_push_current_branch" },
+{ "keys": ["ctrl+k","ctrl+g","ctrl+s"],   "command": "git_status" },
+{ "keys": ["ctrl+k","ctrl+g","ctrl+b"],   "command": "git_branch" }
+]
