@@ -1,20 +1,19 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/WebExPert - ColorScheme/WebExPert.tmTheme",
-	"detect_slow_plugins": false,
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+	"detect_slow_plugins": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
 	"find_selected_text": true,
+	"flatland_sidebar_tree_xsmall": true,
+	"flatland_square_tabs": true,
 	"font_face": "Ubuntu Mono",
 	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Markdown Preview",
-		"Indent XML",
-		"SyncedSideBar",
-		"SublimeBlockCursor",
+		"Dayle Rees Color Schemes",
 		"Vintage"
 	],
 	"reveal-on-activate": true,
@@ -26,7 +25,7 @@
 	"show_minimap": true,
 	"spell_check": true,
 	"tab_size": 4,
-	"theme": "Soda Light 3.sublime-theme",
+	"theme": "Wombat.sublime-theme",
 	"todo":
 	{
 		"case_sensitive": true,
@@ -40,5 +39,7 @@
 		"result_title": "List Of Tasks"
 	},
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"wombat_color_blue": true,
+	"wombat_dirty_bottom_bar_blue": true
 }

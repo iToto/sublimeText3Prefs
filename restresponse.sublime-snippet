@@ -3,7 +3,8 @@
 return \ResponseHelper::returnRESTResponse(
     ${1:Error Occurred},
     "${2:User Friendly Message}"${3:,
-    ${4:Data}}
+    ${4:Data}}${5:,
+    ${6:inJson}}
 );
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
