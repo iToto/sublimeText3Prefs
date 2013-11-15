@@ -20,5 +20,6 @@
 { "keys": ["ctrl+k","ctrl+g","ctrl+p"],   "command": "git_push_current_branch" },
 { "keys": ["ctrl+k","ctrl+g","ctrl+s"],   "command": "git_status" },
 { "keys": ["ctrl+k","ctrl+g","ctrl+l"],   "command": "git_quick_status" },
-{ "keys": ["ctrl+k","ctrl+g","ctrl+b"],   "command": "git_branch" }
+{ "keys": ["ctrl+k","ctrl+g","ctrl+b"],   "command": "git_blame" },
+{ "keys": ["ctrl+k","ctrl+g","ctrl+r"],   "command": "git_checkout_new_branch" },
 ]
