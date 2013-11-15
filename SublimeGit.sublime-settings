@@ -1,0 +1,16 @@
+{
+        /*
+     * Verbose commit messages
+     *
+     * If set to true, the diff output for the current commit
+     * will be shown below the commit overview when writing a
+     * commit message.
+     */
+    "git_commit_verbose": true,
+    "git_commit_pedantic": true,
+    "git_extensions": {
+        "git_flow": true,
+        "legit": false
+    }
+
+}
