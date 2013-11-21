@@ -8,4 +8,7 @@
     { "keys": ["super+k","super+g","super+l"],   "command": "git_quick_status" },
     { "keys": ["super+k","super+g","super+b"],   "command": "git_blame" },
     { "keys": ["super+k","super+g","super+r"],   "command": "git_checkout_new_branch" },
+
+    // Convert tabs to spaces
+    { "keys": ["ctrl+k","ctrl+s"],   "command": "expand_tabs", "args" : {"set_translate_tabs" : true} },
 ]
