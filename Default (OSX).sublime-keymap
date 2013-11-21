@@ -1,9 +1,11 @@
 [
-// Git
-{ "keys": ["super+k","super+g","super+c"],   "command": "git_commit" },
-{ "keys": ["super+k","super+g","super+a"],   "command": "git_add_choice" },
-{ "keys": ["super+k","super+g","super+q"],   "command": "git_quick_commit" },
-{ "keys": ["super+k","super+g","super+p"],   "command": "git_push_current_branch" },
-{ "keys": ["super+k","super+g","super+s"],   "command": "git_status" }
-
+    // Git
+    { "keys": ["super+k","super+g","super+c"],   "command": "git_commit" },
+    { "keys": ["super+k","super+g","super+a"],   "command": "git_add_current_file" },
+    { "keys": ["super+k","super+g","super+q"],   "command": "git_quick_commit_current_file" },
+    { "keys": ["super+k","super+g","super+p"],   "command": "git_push_current_branch" },
+    { "keys": ["super+k","super+g","super+s"],   "command": "git_status" },
+    { "keys": ["super+k","super+g","super+l"],   "command": "git_quick_status" },
+    { "keys": ["super+k","super+g","super+b"],   "command": "git_blame" },
+    { "keys": ["super+k","super+g","super+r"],   "command": "git_checkout_new_branch" },
 ]
