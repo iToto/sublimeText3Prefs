@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Eggplant Parm/EggplantParm.tmTheme",
+	"color_scheme": "Packages/WebExPert - ColorScheme/WebExPert.tmTheme",
 	"detect_slow_plugins": false,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
@@ -13,10 +13,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"SyncedSideBar",
-		"SublimeBlockCursor",
-		"Indent XML"
+		"AdvancedNewFile",
+		"Vintage"
 	],
 	"reveal-on-activate": true,
 	"rulers":
@@ -27,7 +25,7 @@
 	"show_minimap": true,
 	"spell_check": true,
 	"tab_size": 4,
-	"theme": "Wombat.sublime-theme",
+	"theme": "Flatland Dark.sublime-theme",
 	"todo":
 	{
 		"case_sensitive": true,
