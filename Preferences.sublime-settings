@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/WebExPert - ColorScheme/WebExPert.tmTheme",
+	"color_scheme": "Packages/User/ToyChest.tmTheme",
 	"detect_slow_plugins": false,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
