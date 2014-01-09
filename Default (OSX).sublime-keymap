@@ -11,4 +11,8 @@
 
     // Convert tabs to spaces
     { "keys": ["super+k","super+s"],   "command": "expand_tabs", "args" : {"set_translate_tabs" : true} },
+
+    // Date
+    { "keys": ["super+k","super+d"],   "command": "date" },
+
 ]
