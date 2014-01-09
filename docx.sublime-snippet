@@ -7,14 +7,14 @@
 *
 *   @author Salvatore D'Agostino ViralNinjas
 *   @date  ${3:date}
-*   @param ${4:paramName}   (${5:TYPE})   ${6:paramDescription}
-*   @param ${7:paramName}   (${8:TYPE})   ${9:paramDescription}
+*   @param ${4:paramName}   ${5:string}   ${6:paramDescription}
+*   @param ${7:paramName}   ${8:string}   ${9:paramDescription}
 *
-*   @return (${10:TYPE}) ${11:return}
+*   @return ${10:bool} ${11:return}
 **/
-${12:public} function ${1}(\$${4},\$${7})
+${12:public} ${13:static} function ${1}(\$${4},\$${7})
 {
-    # ${13:code}
+    # ${14:code}
 
 }// END function ${1}
 ]]></content>
