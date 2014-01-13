@@ -14,5 +14,7 @@
 
     // Date
     { "keys": ["super+k","super+d"],   "command": "date" },
+    { "keys": ["super+ctrl+shift+a"], "command": "alignment" }
+
 
 ]
