@@ -1,10 +1,9 @@
 <snippet>
     <content><![CDATA[
 return \ResponseHelper::returnRESTResponse(
-    ${1:Error Occurred},
+    ${1:200},
     "${2:User Friendly Message}"${3:,
-    ${4:Data}}${5:,
-    ${6:inJson}}
+    ${4:Data}}
 );
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
