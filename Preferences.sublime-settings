@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/ToyChest.tmTheme",
+	"color_scheme": "Packages/User/ToyChest (SL).tmTheme",
 	"detect_slow_plugins": false,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
@@ -13,7 +13,6 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"AdvancedNewFile",
 		"Vintage"
 	],
 	"reveal-on-activate": true,
