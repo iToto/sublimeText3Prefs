@@ -16,7 +16,12 @@
 
     // Date
     { "keys": ["super+k","super+d"],   "command": "date" },
-    { "keys": ["super+ctrl+shift+a"], "command": "alignment" }
+    { "keys": ["super+ctrl+shift+a"], "command": "alignment" },
+
+    // TODOReview
+    { "keys": ["super+k","super+t"], "command": "todo_review",
+        "args": { "open_files": true }
+    }
 
 
 ]
