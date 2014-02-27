@@ -8,6 +8,9 @@
      */
     "git_commit_verbose": true,
     "git_commit_pedantic": true,
+        "git_executables": {
+        "git_flow": ["/usr/local/bin/git-flow"]
+    },
     "git_extensions": {
         "git_flow": true,
         "legit": false
