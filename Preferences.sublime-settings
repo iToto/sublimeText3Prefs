@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/ToyChest (SL).tmTheme",
+	"color_scheme": "Packages/User/Big Duo (SL).tmTheme",
 	"detect_slow_plugins": false,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
@@ -40,6 +40,8 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
+	"vintageous_use_ctrl_keys": true,
+	"origami_auto_close_empty_panes": true,
 	"wombat_color_blue": true,
 	"wombat_dirty_bottom_bar_blue": true
 }
