@@ -15,6 +15,7 @@
 	[
 		"Vintage"
 	],
+	"origami_auto_close_empty_panes": true,
 	"reveal-on-activate": true,
 	"rulers":
 	[
@@ -41,7 +42,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"vintageous_use_ctrl_keys": true,
-	"origami_auto_close_empty_panes": true,
 	"wombat_color_blue": true,
 	"wombat_dirty_bottom_bar_blue": true
 }
