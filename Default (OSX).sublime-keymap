@@ -21,7 +21,9 @@
     // TODOReview
     { "keys": ["super+k","super+t"], "command": "todo_review",
         "args": { "open_files": true }
-    }
+    },
 
+    // Origami
+    { "keys": ["super+k","super+w"], "command": "destroy_pane", "args": {"direction": "self"} },
 
 ]
