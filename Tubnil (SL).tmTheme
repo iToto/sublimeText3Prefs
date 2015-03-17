@@ -15,12 +15,16 @@
 				<string>#FFFFFF</string>
 				<key>foreground</key>
 				<string>#DAD6CD</string>
+				<key>inactiveSelection</key>
+				<string>#e8b8ff7f</string>
 				<key>invisibles</key>
 				<string>#404040</string>
 				<key>lineHighlight</key>
 				<string>#7B10552B</string>
 				<key>selection</key>
 				<string>#ba44e76d</string>
+				<key>selectionBorder</key>
+				<string>#c862e687</string>
 			</dict>
 		</dict>
 		<dict>
@@ -29,10 +33,7 @@
 			<key>scope</key>
 			<string>source</string>
 			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string />
-			</dict>
+			<dict />
 		</dict>
 		<dict>
 			<key>name</key>
@@ -41,8 +42,6 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#747166</string>
 			</dict>
@@ -65,8 +64,6 @@
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#00D2E5</string>
 			</dict>
@@ -80,8 +77,6 @@
 			<dict>
 				<key>background</key>
 				<string>#351211</string>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#E23D36</string>
 			</dict>
@@ -128,8 +123,6 @@
 			<dict>
 				<key>background</key>
 				<string>#4A0A2F</string>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#F26FBC</string>
 			</dict>
@@ -143,8 +136,6 @@
 			<dict>
 				<key>background</key>
 				<string>#4A0A2F</string>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#F26FBC</string>
 			</dict>
@@ -158,8 +149,6 @@
 			<dict>
 				<key>background</key>
 				<string>#4A0A2F</string>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#F26FBC</string>
 			</dict>
@@ -171,8 +160,6 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#F26FBC</string>
 			</dict>
@@ -186,8 +173,6 @@
 			<dict>
 				<key>background</key>
 				<string>#00312F</string>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#00F6FF</string>
 			</dict>
@@ -199,8 +184,6 @@
 			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#99CC66</string>
 			</dict>
@@ -212,8 +195,6 @@
 			<string>punctuation.definition.string.begin, punctuation.definition.string.end</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#E882B2</string>
 			</dict>
@@ -222,11 +203,9 @@
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable.language, variable.other, variable.parameter</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#3399CC</string>
 			</dict>
@@ -238,8 +217,6 @@
 			<string>constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#34A2D9</string>
 			</dict>
@@ -262,8 +239,6 @@
 			<string>constant.language</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#3399CC</string>
 			</dict>
@@ -275,8 +250,6 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#A9D158</string>
 			</dict>
@@ -288,8 +261,6 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#7ACA3B</string>
 			</dict>
@@ -301,8 +272,6 @@
 			<string>support.type</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#6E9CBE</string>
 			</dict>
@@ -314,8 +283,6 @@
 			<string>support.constant</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#99CC33</string>
 			</dict>
@@ -327,10 +294,8 @@
 			<string>meta.tag, declaration.tag, entity.name.tag, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
-				<string>#FFCC33</string>
+				<string>#7f8ee5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -353,8 +318,6 @@
 			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
 				<key>foreground</key>
 				<string>#797BE6</string>
 			</dict>
@@ -379,6 +342,8 @@
 			<dict>
 				<key>background</key>
 				<string>#11401b</string>
+				<key>foreground</key>
+				<string>#cae297</string>
 			</dict>
 		</dict>
 		<dict>
@@ -390,6 +355,8 @@
 			<dict>
 				<key>background</key>
 				<string>#531c16</string>
+				<key>foreground</key>
+				<string>#fdc3ba</string>
 			</dict>
 		</dict>
 		<dict>
@@ -401,8 +368,6 @@
 			<dict>
 				<key>background</key>
 				<string>#0b437a</string>
-				<key>fontStyle</key>
-				<string />
 			</dict>
 		</dict>
 		<dict>
@@ -414,8 +379,19 @@
 			<dict>
 				<key>background</key>
 				<string>#4e1c6b</string>
-				<key>fontStyle</key>
-				<string />
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Diff Change</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#49410d</string>
+				<key>foreground</key>
+				<string>#f3e09c</string>
 			</dict>
 		</dict>
 		<dict>
@@ -451,15 +427,26 @@
 				<string>#FFCC33</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded Source</string>
+			<key>scope</key>
+			<string>source source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffffff08</string>
+			</dict>
+		</dict>
 	<dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
+            <string>SublimeLinter Error</string>
             <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
+            <string>sublimelinter.mark.error</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DDB700</string>
+                <string>#D02000</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -473,13 +460,13 @@
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Error</string>
+            <string>SublimeLinter Warning</string>
             <key>scope</key>
-            <string>sublimelinter.mark.error</string>
+            <string>sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D02000</string>
+                <string>#DDB700</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
