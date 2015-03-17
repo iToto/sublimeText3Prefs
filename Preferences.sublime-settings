@@ -1,18 +1,26 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/LastNight (SL).tmTheme",
-	"detect_slow_plugins": false,
+	"color_scheme": "Packages/User/Big Duo (SL).tmTheme",
+	"detect_slow_plugins": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
 	"find_selected_text": true,
 	"flatland_sidebar_tree_xsmall": true,
 	"flatland_square_tabs": true,
 	"font_face": "Menlo",
-	"font_size": 12,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Color Scheme - RSE",
+		"ColorSchemeSelector",
+		"Dayle Rees Color Schemes",
+		"Javatar",
+		"Laravel 4 Artisan",
+		"Marked.app Menu",
+		"Mou.app Markdown",
+		"Theme - Flatland",
 		"Vintage"
 	],
 	"origami_auto_close_empty_panes": true,
@@ -22,6 +30,7 @@
 		80,
 		120
 	],
+	"show_full_path": true,
 	"show_minimap": true,
 	"spell_check": true,
 	"tab_size": 4,
@@ -43,7 +52,5 @@
 	"use_simple_full_screen": true,
 	"vintageous_use_ctrl_keys": true,
 	"wombat_color_blue": true,
-	"wombat_dirty_bottom_bar_blue": true,
-	"inactive_panes_dim_color": "#000000",
-	"inactive_panes_dim_strength": 0.4
+	"wombat_dirty_bottom_bar_blue": true
 }

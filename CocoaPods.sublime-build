@@ -1,0 +1,4 @@
+{
+    "cmd": ["pod", "install"],
+    "selector": "Podfile"
+}

@@ -1,0 +1,5 @@
+{
+    "name": "Run Rewards Service",
+    "working_dir": "${project_path}",
+    "shell_cmd": "mvn clean && mvn package && java -jar target/service.reward-1.0-SNAPSHOT.jar server src/main/config/server-local.yml"
+}

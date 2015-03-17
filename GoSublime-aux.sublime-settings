@@ -1,0 +1,18 @@
+{
+	"9o.hist./Users/sdagostino/Dev/SociableLabs/hacks/customers/zalora/rewards":
+	[
+		"php rewards-hack.php"
+	],
+	"9o.hist./Users/sdagostino/Dev/golang/src/github.com/iToto/jollyHelper/resources":
+	[
+		"go get .",
+		"help"
+	],
+	"9o.hist./Users/sdagostino/Library/Application Support/Sublime Text 3/Packages/GoSublime":
+	[
+		"help"
+	],
+	"ann": "a14.02.25-1",
+	"install_version": "r14.12.06-1",
+	"version": "r14.12.06-1"
+}
