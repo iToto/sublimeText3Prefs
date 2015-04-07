@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Big Duo (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Afterglow-monokai (SL).tmTheme",
 	"detect_slow_plugins": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
@@ -13,14 +13,14 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Color Scheme - RSE",
-		"ColorSchemeSelector",
-		"Dayle Rees Color Schemes",
-		"Javatar",
 		"Laravel 4 Artisan",
-		"Marked.app Menu",
 		"Mou.app Markdown",
+		"Dayle Rees Color Schemes",
 		"Theme - Flatland",
+		"ColorSchemeSelector",
+		"Marked.app Menu",
+		"Javatar",
+		"Color Scheme - RSE",
 		"Vintage"
 	],
 	"origami_auto_close_empty_panes": true,
@@ -34,7 +34,7 @@
 	"show_minimap": true,
 	"spell_check": true,
 	"tab_size": 4,
-	"theme": "Spacegray Eighties.sublime-theme",
+	"theme": "Afterglow-orange.sublime-theme",
 	"todo":
 	{
 		"case_sensitive": true,
