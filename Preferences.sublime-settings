@@ -13,15 +13,16 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Marked.app Menu",
-		"Theme - Flatland",
-		"Mou.app Markdown",
-		"ColorSchemeSelector",
-		"Dayle Rees Color Schemes",
-		"Vintage",
 		"Javatar",
+		"GitSavvy",
+		"ColorSchemeSelector",
 		"Laravel 4 Artisan",
-		"Color Scheme - RSE"
+		"Marked.app Menu",
+		"Color Scheme - RSE",
+		"Theme - Flatland",
+		"Vintage",
+		"Mou.app Markdown",
+		"Dayle Rees Color Schemes"
 	],
 	"origami_auto_close_empty_panes": true,
 	"reveal-on-activate": true,

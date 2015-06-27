@@ -3,10 +3,24 @@
 	[
 		"php rewards-hack.php"
 	],
+	"9o.hist./Users/sdagostino/Dev/golang/src/github.com/iToto/crediGo/creditcard":
+	[
+		"pwd",
+		"go get .",
+		"go run crediGo.go"
+	],
+	"9o.hist./Users/sdagostino/Dev/golang/src/github.com/iToto/hello":
+	[
+		"go run hello.go"
+	],
 	"9o.hist./Users/sdagostino/Dev/golang/src/github.com/iToto/jollyHelper/resources":
 	[
 		"go get .",
 		"help"
+	],
+	"9o.hist./Users/sdagostino/Dev/golang/src/github.com/iToto/playground":
+	[
+		"go run main.go"
 	],
 	"9o.hist./Users/sdagostino/Library/Application Support/Sublime Text 3/Packages/GoSublime":
 	[

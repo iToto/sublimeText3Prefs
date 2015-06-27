@@ -11,9 +11,30 @@
 		"lint_mode": "background",
 		"linters":
 		{
+			"javac":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"lint": ""
+			},
 			"php":
 			{
 				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"phplint":
+			{
+				"@disable": true,
 				"args":
 				[
 				],
@@ -24,6 +45,7 @@
 		},
 		"mark_style": "outline",
 		"no_column_highlights_line": false,
+		"passive_warnings": false,
 		"paths":
 		{
 			"linux":
