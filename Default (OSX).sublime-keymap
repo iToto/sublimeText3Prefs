@@ -16,7 +16,7 @@
 
     // Date
     { "keys": ["super+k","super+d"],   "command": "date" },
-    { "keys": ["super+ctrl+shift+a"], "command": "alignment" },
+    // { "keys": ["super+ctrl+shift+a"], "command": "alignment" },
 
     // TODOReview
     { "keys": ["super+k","super+t"], "command": "todo_review",
@@ -28,5 +28,8 @@
 
     // Advanced New File
     { "keys": ["super+alt+k","super+alt+n"], "command": "advanced_new_file_new"},
+
+    // Text alignment
+    { "keys": ["super+ctrl+shift+a"], "command": "alignment" }
 
 ]
