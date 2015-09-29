@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+	"color_scheme": "Packages/Theme - Farzher/Neon.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
@@ -13,16 +13,16 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Javatar",
-		"GitSavvy",
+		"Color Scheme - RSE",
 		"ColorSchemeSelector",
+		"Dayle Rees Color Schemes",
+		"GitSavvy",
+		"Javatar",
 		"Laravel 4 Artisan",
 		"Marked.app Menu",
-		"Color Scheme - RSE",
-		"Theme - Flatland",
-		"Vintage",
 		"Mou.app Markdown",
-		"Dayle Rees Color Schemes"
+		"Theme - Flatland",
+		"Vintage"
 	],
 	"origami_auto_close_empty_panes": true,
 	"reveal-on-activate": true,
