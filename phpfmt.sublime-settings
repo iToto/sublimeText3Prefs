@@ -1,0 +1,9 @@
+{
+	"enable_auto_align": true,
+	"format_on_save": false,
+	"indent_with_space": 4,
+	"option": "value",
+	"php_bin": "/usr/local/opt/php56/bin/php",
+	"psr2": false,
+	"version": 4
+}

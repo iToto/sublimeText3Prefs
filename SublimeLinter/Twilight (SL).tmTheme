@@ -3,20 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Michael Sheets (original color scheme)</string>
+	<string>Michael Sheets</string>
 	<key>name</key>
-	<string>Afterglow - Twilight</string>
+	<string>Twilight</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2E2E2E</string>
+				<string>#141414</string>
 				<key>caret</key>
 				<string>#A7A7A7</string>
 				<key>foreground</key>
-				<string>#d6d6d6</string>
+				<string>#F8F8F8</string>
 				<key>invisibles</key>
 				<string>#FFFFFF40</string>
 				<key>lineHighlight</key>
@@ -35,7 +35,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#797979</string>
+				<string>#5F5A60</string>
 			</dict>
 		</dict>
 		<dict>
@@ -307,7 +307,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#797979</string>
+				<string>#494949</string>
 			</dict>
 		</dict>
 		<dict>
