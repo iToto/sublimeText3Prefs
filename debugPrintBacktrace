@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+debug_print_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS);
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>stackTrace</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
