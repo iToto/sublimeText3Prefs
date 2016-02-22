@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+{
+  "title"          : "${1:Link Title}",
+  "description"    : "${2:Link Description}",
+  "href"           : "${3:/endpoint/for/link}",
+  "method"         : "${4:GET, POST, PUT, PATCH, DELETE}",
+  ${5:"plan_availability": {
+    "free"       : ${6:true},
+    "pro"        : ${7:true},
+    "business"   : ${8:true},
+    "enterprise" : ${9:true}
+  \},}
+  "rel"            : "search",
+  "requestHeaders" : {
+    "\$ref": "${10:/link/to/headers/definition}"
+  },
+  "schema": {
+    "type"       : "${11:object}",
+    "properties" : {
+      "page": {
+        "\$ref": "#/${12:definitions/page}"
+      },
+      "per_page": {
+        "\$ref": "#/${13:definitions/per_page}"
+      },
+      ${14:"${15:identifier}": {
+        "required" : ${16:false},
+        "\$ref"     : "${17:/link/to/identifier/definition}"
+      }}
+    }
+  },
+  "targetSchema": {
+    "\$ref": "${18:#/link/to/response/definition}"
+  }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>schemaLink</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.json</scope>
+</snippet>
