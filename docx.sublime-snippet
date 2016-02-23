@@ -1,18 +1,17 @@
 <snippet>
     <content><![CDATA[
 /**
-*   @brief ${1:brief}
+* @brief ${1:brief}
 *
-*       ${2:description}
+* ${2:description}
 *
-*   @author Salvatore D'Agostino
-*   @date  ${3:date}
-*   @param ${4:paramName}   ${5:string}   ${6:paramDescription}
-*   @param ${7:paramName}   ${8:string}   ${9:paramDescription}
+* @date  ${3:date}
+* @param ${4:string}   \$${5:param}   ${6:paramDescription}
+* @param ${7:string}   \$${8:param}   ${9:paramDescription}
 *
-*   @return ${10:bool} ${11:return}
+* @return ${10:bool} ${11:return}
 **/
-${12:public} ${13:static} function ${1}(\$${4},\$${7})
+${12:protected} ${13:static} function ${1}(\$${5},\$${8})
 {
     # ${14:code}
 
