@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Domenico Carbotta</string>
+	<string>Alex Ross</string>
+	<key>comment</key>
+	<string>Created by Alex Ross</string>
 	<key>name</key>
-	<string>IDLE</string>
+	<string>SpaceCadet</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#0D0D0D</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#7F005D</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#DDE6CF</string>
 				<key>invisibles</key>
 				<string>#BFBFBF</string>
 				<key>lineHighlight</key>
 				<string>#00000012</string>
 				<key>selection</key>
-				<string>#BAD6FD</string>
+				<string>#40002F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,7 +35,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#919191</string>
+				<string>#473C45</string>
 			</dict>
 		</dict>
 		<dict>
@@ -44,53 +46,40 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#00A33F</string>
+				<string>#805978</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Number</string>
+			<string>Constant</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
-			<key>settings</key>
-			<dict />
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Built-in constant</string>
-			<key>scope</key>
-			<string>constant.language</string>
+			<string>constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A535AE</string>
+				<string>#A8885A</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>User-defined constant</string>
-			<key>scope</key>
-			<string>constant.character, constant.other</string>
-			<key>settings</key>
-			<dict />
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable.parameter, variable.other</string>
 			<key>settings</key>
-			<dict />
+			<dict>
+				<key>foreground</key>
+				<string>#596380</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword - keyword.operator, keyword.operator.logical</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5600</string>
+				<string>#728059</string>
 			</dict>
 		</dict>
 		<dict>
@@ -101,18 +90,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF5600</string>
+				<string>#9EBF60</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Type name</string>
+			<string>Entity</string>
 			<key>scope</key>
-			<string>entity.name.type</string>
+			<string>entity</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#21439C</string>
+				<string>#6078BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -121,26 +110,32 @@
 			<key>scope</key>
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
-			<dict />
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function name</string>
-			<key>scope</key>
-			<string>entity.name.function</string>
-			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#21439C</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Function argument</string>
+			<string>Support</string>
 			<key>scope</key>
-			<string>variable.parameter</string>
+			<string>support</string>
 			<key>settings</key>
-			<dict />
+			<dict>
+				<key>foreground</key>
+				<string>#8A4B66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Exception</string>
+			<key>scope</key>
+			<string>support.type.exception</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#893062</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -160,25 +155,11 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A535AE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
 			<string>support.constant</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A535AE</string>
-			</dict>
+			<dict />
 		</dict>
 		<dict>
 			<key>name</key>
@@ -186,21 +167,15 @@
 			<key>scope</key>
 			<string>support.type, support.class</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A535AE</string>
-			</dict>
+			<dict />
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Library variable</string>
 			<key>scope</key>
-			<string>support.variable</string>
+			<string>support.other.variable</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A535AE</string>
-			</dict>
+			<dict />
 		</dict>
 		<dict>
 			<key>name</key>
@@ -210,22 +185,24 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#990000</string>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#5F0047</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String interpolation</string>
+			<string>- Meta</string>
+			<key>settings</key>
+			<dict />
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>  function.section</string>
 			<key>scope</key>
-			<string>constant.other.placeholder.py</string>
+			<string>meta.function.section</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#990000</string>
+				<key>background</key>
+				<string>#371D28</string>
 			</dict>
 		</dict>
 	<dict>
@@ -260,6 +237,6 @@
             </dict>
         </dict></array>
 	<key>uuid</key>
-	<string>DDC0CBE1-442B-4CB5-80E4-26E4CFB3A277</string>
+	<string>2C24E84F-F9FE-4C2E-92D2-F52198BA7E41</string>
 </dict>
 </plist>
