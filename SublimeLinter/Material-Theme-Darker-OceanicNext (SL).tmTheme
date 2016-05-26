@@ -9,7 +9,7 @@
   <key>gutterSettings</key>
   <dict>
     <key>background</key>
-    <string>#263238</string>
+    <string>#212121</string>
     <key>divider</key>
     <string>#343d46</string>
     <key>foreground</key>
@@ -25,29 +25,29 @@
   <string>oceanic.next.dark</string>
   <key>settings</key>
   <array>
-    <dict>
+<dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#263238</string>
+        <string>#212121</string>
         <key>caret</key>
         <string>#FFCC00</string>
         <key>foreground</key>
-        <string>#eeffff</string>
+        <string>#eeffffff</string>
         <key>invisibles</key>
         <string>#65737e</string>
         <key>lineHighlight</key>
         <string>#00000030</string>
         <key>selection</key>
-        <string>#80CBC420</string>
+        <string>#61616140</string>
         <key>guide</key>
-        <string>#37474F80</string>
+        <string>#42424260</string>
         <key>activeGuide</key>
-        <string>#80CBC470</string>
+        <string>#424242</string>
         <key>stackGuide</key>
-        <string>#37474Fff</string>
+        <string>#42424280</string>
         <key>gutterForeground</key>
-        <string>#37474F</string>
+        <string>#424242</string>
         <key>findHighlight</key>
         <string>#F8E71C</string>
         <key>tagsOptions</key>
@@ -55,7 +55,7 @@
         <key>shadow</key>
         <string>#00000010</string>
         <key>selectionBorder</key>
-        <string>#516B79</string>
+        <string>#4F4F4F</string>
       </dict>
     </dict>
     <dict>

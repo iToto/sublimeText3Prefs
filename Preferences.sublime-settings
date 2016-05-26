@@ -1,7 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Lighter.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
@@ -9,7 +9,7 @@
 	"flatland_sidebar_tree_xsmall": true,
 	"flatland_square_tabs": true,
 	"font_face": "Menlo",
-	"font_size": 10,
+	"font_size": 8,
 	"highlight_line": true,
 	"ignored_packages":
 	[
