@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{
+    "\$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "${1:TITLE}",
+    "description": "${2:DESCRIPTION}",
+    "type": "${3:TYPE}",
+    "properties": {
+        ${4:PROPERTIES}
+    },
+    "required": [${5:REQUIRED}]
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>entity-json</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.markdown</scope>
+</snippet>

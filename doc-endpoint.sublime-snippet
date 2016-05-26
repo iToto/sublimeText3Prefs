@@ -1,0 +1,68 @@
+<snippet>
+    <content><![CDATA[
+${1:[DESCRIPTION]}
+
+```
+${2:[VERB]}: ${3:[ENDPOINT]}
+```
+
+${4:##### Sample Payload
+
+```json
+${5:[SAMPLE JSON]}
+```}
+
+#### Sample Response
+##### Success
+
+Code:
+
+    ${6:[RESPONSE CODE]}
+
+Headers:
+
+    ${7:[HTTP HEADERS]}
+
+Body:
+
+```
+${8:[SAMPLE JSON RESPONSE]}
+```
+##### 4xx Failure
+
+Code:
+
+    ${9:[RESPONSE CODE]}
+
+Headers:
+
+    ${10:[HTTP HEADERS]}
+
+Body:
+
+```
+${11:[SAMPLE JSON RESPONSE]}
+```
+
+##### 5xx Failure
+
+Code:
+
+    ${12:[RESPONSE CODE]}
+
+Headers:
+
+    ${13:[HTTP HEADERS]}
+
+Body:
+
+```
+${14:[SAMPLE JSON RESPONSE]}
+```
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>doc-endpoint</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.markdown</scope>
+</snippet>
