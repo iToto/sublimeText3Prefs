@@ -1,6 +1,9 @@
 <snippet>
     <content><![CDATA[
-public function get${1/./\U${0}\E/}() { return \$this->${1:}; }
+public function get${1/./\U${0}\E/}()
+{
+    return \$this->${1:};
+}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>getter</tabTrigger>
