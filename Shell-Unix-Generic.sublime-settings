@@ -1,0 +1,4 @@
+{
+    // use a bundled color scheme while writing shell scripts
+    "color_scheme": "Packages/ShellScriptImproved/color_schemes/dark.tmTheme"
+}
