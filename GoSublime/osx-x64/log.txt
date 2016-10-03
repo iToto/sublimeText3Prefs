@@ -10773,47 +10773,31 @@ exception: `Cannot find command `go``
 MarGo: Missing required environment variables: GOROOT
 See the `Quirks` section of USAGE.md for info
 --------------------------------
-
-** 2016-06-18 12:38:25.010736 **:
-MarGo: MarGo build failed
-cmd: `['', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r16.06.02-1_go?.exe', 'disposa.blue/cmd/margo']`
-stdout: `
-
-`
-stderr: `
-
-`
-exception: `Cannot find command `go``
---------------------------------
-
-** 2016-06-18 12:38:25.015745 **:
-MarGo: Missing required environment variables: GOROOT
-See the `Quirks` section of USAGE.md for info
---------------------------------
-
-** 2016-06-20 10:33:56.771748 **:
-MarGo: MarGo build failed
-cmd: `['', 'build', '-tags', '', '-v', '-o', 'gosublime.margo_r16.06.02-1_go?.exe', 'disposa.blue/cmd/margo']`
-stdout: `
-
-`
-stderr: `
-
-`
-exception: `Cannot find command `go``
---------------------------------
-
-** 2016-06-20 10:33:56.776527 **:
-MarGo: Missing required environment variables: GOROOT
-See the `Quirks` section of USAGE.md for info
---------------------------------
 Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.6.2/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.6.2/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
 Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.6.2/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.6.2/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
 Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.6.2/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.6.2/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
-Gocode pkg: "."
-Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.6.2/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.6.2/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+
+** 2016-10-01 10:00:17.870359 **:
+GsComplete: Blocking Call(gocode_complete) timed out after 1.000 second(s). You might need to increase the `ipc_timeout` setting
+--------------------------------
+
+** 2016-10-01 10:00:18.962424 **:
+GsComplete: Blocking Call(gocode_complete) timed out after 1.000 second(s). You might need to increase the `ipc_timeout` setting
+--------------------------------
+
+** 2016-10-01 10:00:20.035398 **:
+GsComplete: Blocking Call(gocode_complete) timed out after 1.000 second(s). You might need to increase the `ipc_timeout` setting
+--------------------------------
+
+** 2016-10-01 10:03:23.360956 **:
+GsComplete: Blocking Call(gocode_complete) timed out after 1.000 second(s). You might need to increase the `ipc_timeout` setting
+--------------------------------
+
+** 2016-10-01 10:03:30.087634 **:
+GsComplete: Blocking Call(gocode_complete) timed out after 1.000 second(s). You might need to increase the `ipc_timeout` setting
+--------------------------------
 Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.6.2/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.6.2/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
