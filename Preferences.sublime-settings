@@ -22,6 +22,7 @@
 		"Mou.app Markdown",
 		"Theme - Flatland"
 	],
+	"index_files": false,
 	"material_theme_accent_indigo": true,
 	"material_theme_compact_sidebar": true,
 	"material_theme_small_statusbar": true,
