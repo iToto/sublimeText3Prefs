@@ -1,15 +1,56 @@
 {
+	"binary_file_patterns":
+	[
+		".jpg",
+		".jpeg",
+		".png",
+		".gif",
+		".ttf",
+		".tga",
+		".dds",
+		".ico",
+		".eot",
+		".pdf",
+		".swf",
+		".jar",
+		"*.zip",
+		"vendor/**",
+		"node_modules/**",
+		".certs/**"
+	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
 	"detect_slow_plugins": true,
 	"draw_white_space": "all",
 	"fade_fold_buttons": true,
+	"file_exclude_patterns":
+	[
+		".pyc",
+		".pyo",
+		".exe",
+		".dll",
+		".obj",
+		".o",
+		".a",
+		".lib",
+		".so",
+		".dylib",
+		".ncb",
+		".sdf",
+		".suo",
+		".pdb",
+		".idb",
+		".DS_Store",
+		".class",
+		".psd",
+		".db"
+	],
 	"find_selected_text": true,
 	"flatland_sidebar_tree_xsmall": true,
 	"flatland_square_tabs": true,
 	"font_face": "Menlo",
-	"font_size": 10,
+	"font_size": 11,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -41,7 +82,7 @@
 	"spell_check": true,
 	"tab_size": 4,
 	"tabs_small": true,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Material-Theme-Palenight.sublime-theme",
 	"todo":
 	{
 		"case_sensitive": true,
