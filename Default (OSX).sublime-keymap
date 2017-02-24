@@ -30,6 +30,11 @@
     { "keys": ["super+alt+k","super+alt+n"], "command": "advanced_new_file_new"},
 
     // Text alignment
-    { "keys": ["super+ctrl+shift+a"], "command": "alignment" }
+    { "keys": ["super+ctrl+shift+a"], "command": "alignment" },
 
+    // go guru
+    { "keys": ["ctrl+shift+k","ctrl+shift+g"], "command": "go_guru"},
+    { "keys": ["ctrl+shift+k","ctrl+alt+shift+g"], "command": "go_guru_show_results"},
+    { "keys": ["ctrl+shift+k","ctrl+shift+g","ctrl+shift+c"], "command": "go_guru", "args": {"mode": "callers"} },
+    { "keys": ["ctrl+shift+k","ctrl+shift+g","ctrl+shift+d"], "command": "go_guru", "args": {"mode": "definition"} },
 ]
