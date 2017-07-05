@@ -3,10 +3,18 @@
         "debug": false,
         "delay": 0.25,
         "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme": "none",
         "gutter_theme_excludes": [],
         "lint_mode": "load/save",
         "linters": {
+            "bashate": {
+                "@disable": false,
+                "args": [],
+                "error": "",
+                "excludes": [],
+                "ignore": "",
+                "warn": ""
+            },
             "php": {
                 "@disable": false,
                 "args": [],

@@ -1,3 +1,33 @@
 {
-	"goguru_debug": false
+    // adds to the guru_scope the current package of the the working file
+    "goguru_use_current_package" : true,
+
+    // besides showing the result, jump directly to the definition
+    "goguru_jumpto_definition": true,
+
+    // The output can either be one of: 'buffer', 'output_panel'
+    // Buffers can hold results from more than one invocation
+    // Output panels sit underneath the editor area and are easily dismissed
+    "goguru_output": "output_panel",
+
+    // print debug info to the terminal
+    "goguru_debug": true,
+
+    // Set guru's output to json
+    "goguru_json": false,
+
+    // an array of scopes of analysis for guru.
+    // e.g (for github.com/juju/juju) "guru_scope": ["github.com/juju/juju/cmd/juju", "github.com/juju/juju/cmd/jujud"]
+    "goguru_scope": [],
+
+    // an array of build tags of analyzed source files
+    "goguru_tags": [],
+
+    // env overwrites the default shell environment vars
+    // e.g "env": { "GOPATH": "$HOME/go/bin:$PATH" }
+    // not used when goguru_use_golangconfig is set to true
+    "goguru_env": {
+        "GOPATH": "/Users/gimli/cf-repos/golang",
+        "PATH": "/Users/gimli/.nvm/versions/node/v4.4.3/bin:/usr/local/heroku/bin:/usr/local/Cellar/php56/5.6.29_5/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/gimli/.rvm/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Users/gimli/Dev/golang/bin:/Users/gimli/cf-repos/golang/bin"
+    }
 }

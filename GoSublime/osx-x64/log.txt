@@ -13937,3 +13937,2405 @@ Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
 Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+margo: 2017/03/29 22:56:07 broker.go:105: gocode_complete#mg9.autoken.6ee2b995-a79d-4607-8974-6294beaddeab PANIC: runtime error: index out of range
+goroutine 87 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc420616a40, 0xc420185340)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x415220, 0xc4200140d0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.method_of(0x66d020, 0xc4205d0ab0, 0x1, 0x66d0a0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:328 +0x20a
+disposa.blue/something-borrowed/gocode.append_to_top_decls.func1(0xc4202f0be0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:129 +0x168
+disposa.blue/something-borrowed/gocode.foreach_decl(0x66d020, 0xc4205d0ab0, 0xc4206cb8e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/decl.go:1328 +0x1d3
+disposa.blue/something-borrowed/gocode.append_to_top_decls(0xc4205d0ae0, 0x66d020, 0xc4205d0ab0, 0xc420443a00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/declcache.go:148 +0x69
+disposa.blue/something-borrowed/gocode.(*auto_complete_file).process_data(0xc42000ab60, 0xc4202f0820, 0x41, 0x41)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletefile.go:86 +0x419
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42013c800, 0xc4205c8680, 0x40, 0x40, 0xc4205c8580, 0x3c, 0x13, 0x1, 0x1, 0xc4205c8580, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:298 +0x1d6
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc420086160, 0x0, 0x0, 0x0, 0xc4205d0300, 0x22, 0xc420442f20, 0x1, 0x1, 0xc4205c8680, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420324400, 0xc4205c8680, 0x40, 0x40, 0xc4205c8580, 0x3c, 0x13, 0x0, 0x0, 0x0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420324400, 0x4c5a58, 0xc420616a40, 0xc420185340, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x2dc
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc420185340, 0xc420616a40, 0x667b20, 0xc420324400)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420180000, 0x1000, 0x19, 0xc420052000, 0x5)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420180000, 0x1000, 0x1000, 0x23, 0xbdd798, 0x3f2860)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420180000, 0x1000, 0x1000, 0xc42061a600, 0xbdd798, 0xc420442a01)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002e008, 0xc420180000, 0x1000, 0x1000, 0xc4206cd7f8, 0x73a4b0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc42002e008, 0xc420180000, 0x1000, 0x1000, 0xea96, 0xc420066478, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc420066300)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc420066300, 0x4a0a, 0xc420066420, 0xc4202f1040, 0xc4206cda40, 0xc4206cd8c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc420066300, 0xc42006640a, 0xc4206cda40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc420185340, 0xc420066420, 0xc420185300)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc420185340, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 7 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc420185340, 0xc420014d10)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 6 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 26 [chan receive, 2 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc420120160)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 33 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 8 [chan receive, 509 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc420185340)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 10 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 11 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 81 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 82 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 83 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 84 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 86 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 88 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 89 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 90 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 91 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 92 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 93 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc420185340, 0xc42015a0e0, 0xc420066420)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+
+** 2017-03-29 22:56:07.674209 **:
+GsComplete: broker: gocode_complete#mg9.autoken.6ee2b995-a79d-4607-8974-6294beaddeab PANIC
+--------------------------------
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "."
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "github.com/iToto/test"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/pgq2kafka/sentry"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/pgq2kafka/sentry"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "github.com/iToto/test"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus-ui"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus-ui"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/pgq2kafka"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/pgq2kafka"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker/cmd/billing-worker"
+Gocode pkg: "code.cfops.it/sys/billing"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer/example"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+margo: 2017/05/10 09:08:24 broker.go:105: gocode_calltip#mg9.autoken.4191d681-bc39-4e96-9364-4facc55ac99b PANIC: open /Users/gimli/cf-repos/golang/src/code.cfops.it/plat/eventbus/consumer/: no such file or directory
+goroutine 101 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc420adc020, 0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x40d7c0, 0xc42054aa50)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc4209bd9e0, 0x51, 0xc4207ba110, 0x8, 0xc420063730, 0xc420713a40, 0xc4205aca01)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x555
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc4209bd9e0, 0x51, 0xc4207ba110, 0x8, 0xc42012d160, 0xc4200969a0, 0xc42054a8d0, 0xc4207bb550)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x67
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc420010cc0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x120
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc420010cc0, 0xc42094f400, 0x95f, 0xa00, 0xc4209bd9e0, 0x51, 0x3d4, 0x1, 0x1, 0xc4209bd9e0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1e7
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc4200fe2c0, 0x1, 0x0, 0x0, 0xc420a66cc0, 0x22, 0xc4207c3c20, 0x1, 0x1, 0xc42094f400, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420586e00, 0xc42094f400, 0x95f, 0xa00, 0xc4209bd9e0, 0x51, 0x3d4, 0x0, 0xa00, 0xc42094f400)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc420586e00, 0xc42094f400, 0x95f, 0xa00, 0xc4209bd9e0, 0x51, 0x3d8, 0x0, 0x0, 0x0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x196
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420586e00, 0x4c5a58, 0xc420adc020, 0xc42000ae00, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x159
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000ae00, 0xc420adc020, 0x667b20, 0xc420586e00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420198000, 0x1000, 0x19, 0xc4200d2000, 0x2)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420198000, 0x1000, 0x1000, 0x2b, 0xb1e340, 0x3eeee0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420198000, 0x1000, 0x1000, 0x0, 0xc4200d2000, 0xc4207c2001)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc420092000, 0xc420198000, 0x1000, 0x1000, 0xc4208a97f8, 0x4038c, 0xc4207c2058)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc420092000, 0xc420198000, 0x1000, 0x1000, 0xea96, 0xc42001c298, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42001c120)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc42001c120, 0x4a0a, 0xc42001c240, 0xc4205dd720, 0xc4208a9a40, 0xc4208a98c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42001c120, 0xc42001c20a, 0xc4208a9a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000ae00, 0xc42001c240, 0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000ae00, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 4 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 65 [chan receive, 892 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc420092180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 5 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 7 [sleep, 1 minutes]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000ae00, 0xc420073600)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 8 [chan receive, 978 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 10 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 11 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 12 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 97 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 98 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 99 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 100 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 102 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 103 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 104 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 105 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 106 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 107 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 108 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 109 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+margo: 2017/05/10 09:08:25 broker.go:105: gocode_calltip#mg9.autoken.df213f13-fad8-4842-8038-f03252446a05 PANIC: open /Users/gimli/cf-repos/golang/src/code.cfops.it/plat/eventbus/consumer/: no such file or directory
+goroutine 102 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc420ac8060, 0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x40d7c0, 0xc420a88a80)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc4208d20c0, 0x51, 0xc4207bb1a0, 0x8, 0xc42051d720, 0xc420713a40, 0x10801)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x555
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc4208d20c0, 0x51, 0xc4207bb1a0, 0x8, 0xc42012d160, 0xc4200969a0, 0xc420a88510, 0xc4205d64d0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x67
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc420010cc0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x120
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc420010cc0, 0xc420a02a00, 0x95f, 0xa00, 0xc4208d20c0, 0x51, 0x3d4, 0x1, 0x1, 0xc4208d20c0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1e7
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc4200fe2c0, 0x1, 0x0, 0x0, 0xc4209f8660, 0x22, 0xc4207ba260, 0x1, 0x1, 0xc420a02a00, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc42080a000, 0xc420a02a00, 0x95f, 0xa00, 0xc4208d20c0, 0x51, 0x3d4, 0x0, 0xa00, 0xc420a02a00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc42080a000, 0xc420a02a00, 0x95f, 0xa00, 0xc4208d20c0, 0x51, 0x3d8, 0x0, 0x55, 0x4de)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x196
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc42080a000, 0x4c5a58, 0xc420ac8060, 0xc42000ae00, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x159
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000ae00, 0xc420ac8060, 0x667b20, 0xc42080a000)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420198000, 0x1000, 0x19, 0x690ba0, 0x2)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420198000, 0x1000, 0x1000, 0x2b, 0xb5ada0, 0x3eeee0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420198000, 0x1000, 0x1000, 0x0, 0x690ba0, 0xc420aa6001)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc420092000, 0xc420198000, 0x1000, 0x1000, 0xc4208a97f8, 0x4038c, 0xc420aa6078)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc420092000, 0xc420198000, 0x1000, 0x1000, 0xea96, 0xc42001c298, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42001c120)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc42001c120, 0x4a0a, 0xc42001c240, 0xc4205b0280, 0xc4208a9a40, 0xc4208a98c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42001c120, 0xc42001c20a, 0xc4208a9a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000ae00, 0xc42001c240, 0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000ae00, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 4 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 65 [chan receive, 892 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc420092180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 5 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 7 [sleep, 1 minutes]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000ae00, 0xc420073600)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 8 [chan receive, 979 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 10 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 11 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 12 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 97 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 98 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 99 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 100 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 101 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 103 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 104 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 105 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 106 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 107 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 108 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 109 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc42017a090, 0xc42001c240)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/data/kafkap/consumer"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "github.com/iToto/test"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/repository"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/bill/catalog/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/bill/catalog/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/catalog"
+margo: 2017/05/31 17:35:33 broker.go:105: gocode_complete#mg9.autoken.dfc407e6-8066-45e6-9427-2561b7ff42eb PANIC: runtime error: slice bounds out of range
+goroutine 71 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc420472520, 0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x415220, 0xc420016120)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42014c880, 0xc4203e75f0, 0xc1, 0xd0, 0xc4200936d0, 0x4f, 0xffffffffffffffff, 0x1, 0x1, 0xc4200936d0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:292 +0xaaf
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc4201064d0, 0x0, 0x0, 0x0, 0xc420471b90, 0x22, 0xc42008b390, 0x1, 0x1, 0xc4203e75f0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420108680, 0xc4203e75f0, 0xc1, 0xd0, 0xc4200936d0, 0x4f, 0xffffffffffffffff, 0xc4202ebe90, 0x0, 0x0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420108680, 0x4c5a58, 0xc420472520, 0xc42000ae00, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x2dc
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000ae00, 0xc420472520, 0x667b20, 0xc420108680)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc42013a000, 0x1000, 0x19, 0xc42005c000, 0x5)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc42013a000, 0x1000, 0x1000, 0x23, 0x7a5ae8, 0x3f2860)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc42013a000, 0x1000, 0x1000, 0xc420724000, 0x7a5ae8, 0xc42008b101)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc420032008, 0xc42013a000, 0x1000, 0x1000, 0xc4201717f8, 0x73a000, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc420032008, 0xc42013a000, 0x1000, 0x1000, 0xea96, 0xc4200941d8, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc4200181e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc4200181e0, 0x4a0a, 0xc420094180, 0xc4203b5400, 0xc420171a40, 0xc4201718c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc4200181e0, 0xc42009410a, 0xc420171a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000ae00, 0xc420094180, 0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000ae00, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 7 [chan receive, 3 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc4200be158)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 9 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 10 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000ae00, 0xc42008a570)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 11 [chan receive, 33 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000ae00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 29 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 30 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 31 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 32 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 49 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 50 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 51 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 52 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 12 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 13 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 14 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 15 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 16 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420016810, 0xc420094180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+
+** 2017-05-31 17:35:33.918297 **:
+GsComplete: broker: gocode_complete#mg9.autoken.dfc407e6-8066-45e6-9427-2561b7ff42eb PANIC
+--------------------------------
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/usageapi"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/worker"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+margo: 2017/06/06 18:09:47 broker.go:105: gocode_calltip#mg9.autoken.e01d495a-0402-4282-896e-8fb40cf8eb81 PANIC: open /Users/gimli/cf-repos/golang/src/code.cfops.it/bill/catalog/rateplan/: no such file or directory
+goroutine 70 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc4206418a0, 0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x40d7c0, 0xc4206c4690)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc4208a9a40, 0x54, 0xc420643c88, 0x8, 0xc4206a9720, 0xc4204f1e48, 0x10801)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x555
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc4208a9a40, 0x54, 0xc420643c88, 0x8, 0xc42011ed80, 0xc42000afc0, 0xc4207d36b0, 0xc420571f80)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x67
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc42015a800)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x120
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42015a800, 0xc4205e0c60, 0x14d, 0x160, 0xc4208a9a40, 0x54, 0x13b, 0x1, 0x1, 0xc4208a9a40, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1e7
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc420126420, 0x1, 0x0, 0x0, 0xc4206d7770, 0x22, 0xc420643930, 0x1, 0x1, 0xc4205e0c60, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420678a00, 0xc4205e0c60, 0x14d, 0x160, 0xc4208a9a40, 0x54, 0x13b, 0x0, 0x160, 0xc4205e0c60)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc420678a00, 0xc4205e0c60, 0x14d, 0x160, 0xc4208a9a40, 0x54, 0x13c, 0x32c98, 0xc42011b50c, 0x300000002)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x196
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420678a00, 0x4c5a58, 0xc4206418a0, 0xc42000af50, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x159
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000af50, 0xc4206418a0, 0x667b20, 0xc420678a00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420188000, 0x1000, 0x19, 0xc4200b6c00, 0x5)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420188000, 0x1000, 0x1000, 0x23, 0x831868, 0x3f2860)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420188000, 0x1000, 0x1000, 0xc4205d6c00, 0x831868, 0xc420643401)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xc4203157f8, 0x73a000, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xea96, 0xc420120238, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42006e1e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc42006e1e0, 0x4a0a, 0xc4201201e0, 0xc420391590, 0xc420315a40, 0xc4203158c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42006e1e0, 0xc42012010a, 0xc420315a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000af50, 0xc4201201e0, 0xc42000af00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000af50, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 33 [chan receive, 16 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc42012e138)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 34 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 35 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000af50, 0xc4200b2b90)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 36 [chan receive, 541 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 69 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 73 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 74 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 75 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 76 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 77 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 78 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 79 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 80 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 81 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 82 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 83 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 84 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+margo: 2017/06/06 18:09:48 broker.go:105: gocode_calltip#mg9.autoken.b0c2a173-b9cc-4ccb-b6c9-ebe1943906c6 PANIC: open /Users/gimli/cf-repos/golang/src/code.cfops.it/bill/catalog/rateplan/: no such file or directory
+goroutine 69 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc420640060, 0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x40d7c0, 0xc4207e9740)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc4208a8060, 0x54, 0xc420643280, 0x8, 0xc42084b720, 0xc4204f1e48, 0x10801)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x555
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc4208a8060, 0x54, 0xc420643280, 0x8, 0xc42011ed80, 0xc42000afc0, 0xc4207e9050, 0xc420643b00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x67
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc42015a800)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x120
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42015a800, 0xc4205e02c0, 0x146, 0x160, 0xc4208a8060, 0x54, 0x13b, 0x1, 0x1, 0xc4208a8060, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1e7
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc420126420, 0x1, 0x0, 0x0, 0xc420833aa0, 0x22, 0xc420642d30, 0x1, 0x1, 0xc4205e02c0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420678100, 0xc4205e02c0, 0x146, 0x160, 0xc4208a8060, 0x54, 0x13b, 0x0, 0x160, 0xc4205e02c0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc420678100, 0xc4205e02c0, 0x146, 0x160, 0xc4208a8060, 0x54, 0x142, 0x32c98, 0xc420020a0c, 0x300000002)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x196
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420678100, 0x4c5a58, 0xc420640060, 0xc42000af50, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x159
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000af50, 0xc420640060, 0x667b20, 0xc420678100)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420188000, 0x1000, 0x19, 0xc420030800, 0x5)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420188000, 0x1000, 0x1000, 0x23, 0x831868, 0x3f2860)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420188000, 0x1000, 0x1000, 0xc4205d6000, 0x831868, 0xc420642101)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xc4203157f8, 0x73a000, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xea96, 0xc420120238, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42006e1e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc42006e1e0, 0x4a0a, 0xc4201201e0, 0xc4203d66e0, 0xc420315a40, 0xc4203158c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42006e1e0, 0xc42012010a, 0xc420315a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000af50, 0xc4201201e0, 0xc42000af00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000af50, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 33 [chan receive, 16 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc42012e138)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 34 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 35 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000af50, 0xc4200b2b90)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 36 [chan receive, 541 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 71 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 73 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 74 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 75 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 76 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 77 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 78 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 79 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 80 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 81 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 82 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 83 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 84 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+margo: 2017/06/06 18:09:49 broker.go:105: gocode_calltip#mg9.autoken.1d02e640-5233-4377-96dd-c67b8e9d05c5 PANIC: open /Users/gimli/cf-repos/golang/src/code.cfops.it/bill/catalog/rateplan/: no such file or directory
+goroutine 73 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc420640e20, 0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x40d7c0, 0xc4207e9f50)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc4208a8c00, 0x54, 0xc4206435b0, 0x8, 0xc4206a9720, 0xc4204f1e48, 0x10801)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x555
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc4208a8c00, 0x54, 0xc4206435b0, 0x8, 0xc42011ed80, 0xc42000afc0, 0xc4207e9cb0, 0xc420570590)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x67
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc42015a800)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x120
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42015a800, 0xc4205e0580, 0x146, 0x160, 0xc4208a8c00, 0x54, 0x13b, 0x1, 0x1, 0xc4208a8c00, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1e7
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc420126420, 0x1, 0x0, 0x0, 0xc4208314a0, 0x22, 0xc4206432b0, 0x1, 0x1, 0xc4205e0580, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420678200, 0xc4205e0580, 0x146, 0x160, 0xc4208a8c00, 0x54, 0x13b, 0x0, 0x160, 0xc4205e0580)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc420678200, 0xc4205e0580, 0x146, 0x160, 0xc4208a8c00, 0x54, 0x142, 0x32c98, 0xc42001b50c, 0x300000002)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x196
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420678200, 0x4c5a58, 0xc420640e20, 0xc42000af50, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x159
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000af50, 0xc420640e20, 0x667b20, 0xc420678200)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420188000, 0x1000, 0x19, 0xc420052400, 0x5)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420188000, 0x1000, 0x1000, 0x23, 0x831868, 0x3f2860)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420188000, 0x1000, 0x1000, 0xc4205d6600, 0x831868, 0xc420642b01)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xc4203157f8, 0x73a000, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xea96, 0xc420120238, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42006e1e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc42006e1e0, 0x4a0a, 0xc4201201e0, 0xc42013c280, 0xc420315a40, 0xc4203158c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42006e1e0, 0xc42012010a, 0xc420315a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000af50, 0xc4201201e0, 0xc42000af00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000af50, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 33 [chan receive, 16 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc42012e138)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 34 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 35 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000af50, 0xc4200b2b90)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 36 [chan receive, 541 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 71 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 74 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 75 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 76 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 77 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 78 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 79 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 80 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 81 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 82 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 83 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 84 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+margo: 2017/06/06 18:09:53 broker.go:105: gocode_calltip#mg9.autoken.9b70fdff-70b0-4dde-8934-efd930025a57 PANIC: open /Users/gimli/cf-repos/golang/src/code.cfops.it/bill/catalog/rateplan/: no such file or directory
+goroutine 75 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc4207da1e0, 0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x40d7c0, 0xc4206d7080)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc4206278c0, 0x54, 0xc420571820, 0x8, 0xc42060d720, 0xc4204f1e48, 0x10801)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x555
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc4206278c0, 0x54, 0xc420571820, 0x8, 0xc42011ed80, 0xc42000afc0, 0xc4207e9f50, 0xc420643410)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x67
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc42015a800)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x120
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42015a800, 0xc4205e0c60, 0x146, 0x160, 0xc4206278c0, 0x54, 0x13b, 0x1, 0x1, 0xc4206278c0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1e7
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc420126420, 0x1, 0x0, 0x0, 0xc420816300, 0x22, 0xc4205714e0, 0x1, 0x1, 0xc4205e0c60, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420854180, 0xc4205e0c60, 0x146, 0x160, 0xc4206278c0, 0x54, 0x13b, 0x0, 0x160, 0xc4205e0c60)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc420854180, 0xc4205e0c60, 0x146, 0x160, 0xc4206278c0, 0x54, 0x142, 0xc42087de90, 0x0, 0x0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x196
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420854180, 0x4c5a58, 0xc4207da1e0, 0xc42000af50, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x159
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000af50, 0xc4207da1e0, 0x667b20, 0xc420854180)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420188000, 0x1000, 0x19, 0x82, 0x5)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420188000, 0x1000, 0x1000, 0x23, 0x831728, 0x3f2860)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420188000, 0x1000, 0x1000, 0xc420852600, 0x831728, 0xc420570601)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xc4203157f8, 0x73a4b0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xea96, 0xc420120238, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42006e1e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc42006e1e0, 0x4a0a, 0xc4201201e0, 0xc42082f400, 0xc420315a40, 0xc4203158c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42006e1e0, 0xc42012010a, 0xc420315a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000af50, 0xc4201201e0, 0xc42000af00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000af50, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 33 [chan receive, 16 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc42012e138)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 34 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 35 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000af50, 0xc4200b2b90)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 36 [chan receive, 541 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 71 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 73 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 74 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 76 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 77 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 78 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 79 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 80 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 81 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 82 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 83 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 84 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+margo: 2017/06/06 18:09:54 broker.go:105: gocode_calltip#mg9.autoken.fb87c707-15d8-4ec0-97f3-09e5d35afcc3 PANIC: open /Users/gimli/cf-repos/golang/src/code.cfops.it/bill/catalog/rateplan/: no such file or directory
+goroutine 76 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc420640000, 0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x40d7c0, 0xc4207e9680)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.find_other_package_files(0xc4208940c0, 0x54, 0xc420571550, 0x8, 0xc4206a9720, 0xc4204f1e48, 0x10801)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:469 +0x555
+disposa.blue/something-borrowed/gocode.get_other_package_files(0xc4208940c0, 0x54, 0xc420571550, 0x8, 0xc42011ed80, 0xc42000afc0, 0xc4207e8fc0, 0xc420571f20)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:434 +0x67
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).update_caches(0xc42015a800)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:160 +0x120
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42015a800, 0xc4205e02c0, 0x146, 0x160, 0xc4208940c0, 0x54, 0x13b, 0x1, 0x1, 0xc4208940c0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:303 +0x1e7
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc420126420, 0x1, 0x0, 0x0, 0xc42081d620, 0x22, 0xc420571050, 0x1, 0x1, 0xc4205e02c0, ...)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc420854100, 0xc4205e02c0, 0x146, 0x160, 0xc4208940c0, 0x54, 0x13b, 0x0, 0x160, 0xc4205e02c0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).calltips(0xc420854100, 0xc4205e02c0, 0x146, 0x160, 0xc4208940c0, 0x54, 0x142, 0xc420328e90, 0x0, 0x0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:105 +0x196
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc420854100, 0x4c5a58, 0xc420640000, 0xc42000af50, 0x3)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:74 +0x159
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000af50, 0xc420640000, 0x667b20, 0xc420854100)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420188000, 0x1000, 0x19, 0xc4200c0400, 0x5)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420188000, 0x1000, 0x1000, 0x23, 0x831868, 0x3f2860)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420188000, 0x1000, 0x1000, 0xc4205d6000, 0x831868, 0xc420570001)
+	/usr/local/Cellar/go/1.7.3/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xc4203157f8, 0x73a000, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc42002e008, 0xc420188000, 0x1000, 0x1000, 0xea96, 0xc420120238, 0x1)
+	/usr/local/Cellar/go/1.7.3/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc42006e1e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc42006e1e0, 0x4a0a, 0xc4201201e0, 0xc420018c30, 0xc420315a40, 0xc4203158c8, 0x41e3e0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc42006e1e0, 0xc42012010a, 0xc420315a40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.3/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000af50, 0xc4201201e0, 0xc42000af00)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000af50, 0x4c0001)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 33 [chan receive, 16 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc42012e138)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 8 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 34 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 35 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.3/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000af50, 0xc4200b2b90)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 36 [chan receive, 541 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000af50)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 69 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 71 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 72 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 73 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 74 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 75 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 77 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 78 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 79 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 80 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 81 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 82 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 83 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 84 [chan receive, 1 minutes]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 85 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000af50, 0xc4202a2020, 0xc4201201e0)
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/gimli/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/.GOPATH/src/code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/mock/rateplans"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/vendor/go.uber.org/zap"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/bfcoreapitest"
+Gocode pkg: "code.cfops.it/sys/billing/api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus"
+Gocode pkg: "code.cfops.it/plat/eventbus/consumer"
+Gocode pkg: "code.cfops.it/plat/eventbus/pgq2kafka"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus-ui"
+Gocode pkg: "code.cfops.it/plat/eventbus/pgq2kafka"
+Gocode pkg: "code.cfops.it/plat/eventbus/eventbus-ui"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/sys/billing/api/controllers"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/api/cmd/catalog-api"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode pkg: "code.cfops.it/bill/catalog/rateplan"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.8.3/libexec/pkg/darwin_amd64:/Users/gimli/cf-repos/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.8.3/libexec", GOPATH:"/Users/gimli/cf-repos/golang/", InstallSuffix:""}
