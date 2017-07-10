@@ -13937,3 +13937,310 @@ Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
 Gocode pkg: "."
 Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.3/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.3/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/sdagostino/Dev/ViralNinjas/platform/APIv2/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/entity"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/entity"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/iToto/jollyHelper/resources"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/iToto/passhash"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/iToto/passhash"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/iToto/passhash"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/iToto/passhash"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/entity"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/entity"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "."
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/go/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/go", InstallSuffix:""}
+Gocode pkg: "github.com/iToto/codenamegen/cmd/codenamegen"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang", InstallSuffix:""}
+margo: 2017/06/01 21:03:20 broker.go:105: gocode_complete#mg9.autoken.ced26577-b5cd-4be2-afc6-7d5e575a6cb5 PANIC: runtime error: slice bounds out of range
+goroutine 69 [running]:
+disposa.blue/cmd/margo_pkg.(*Broker).call.func1(0xc42010cac0, 0xc42000ae00)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:104 +0xc2
+panic(0x415580, 0xc420010120)
+	/usr/local/Cellar/go/1.7.1/libexec/src/runtime/panic.go:458 +0x243
+disposa.blue/something-borrowed/gocode.(*auto_complete_context).apropos(0xc42015c8c0, 0xc4200158c0, 0x23, 0x30, 0xc420119360, 0x50, 0xffffffffffffffff, 0x1, 0x1, 0xc420119360, ...)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/autocompletecontext.go:292 +0xaaf
+disposa.blue/something-borrowed/gocode.(*margoState).Complete(0xc4200a4160, 0x0, 0x0, 0x0, 0xc420015890, 0x22, 0xc4201222d0, 0x1, 0x1, 0xc4200158c0, ...)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/gosublime_gocode_bridge.go:78 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).completions(0xc42008e080, 0xc4200158c0, 0x23, 0x30, 0xc420119360, 0x50, 0xffffffffffffffff, 0xc4202dbe90, 0x0, 0x0)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:95 +0x144
+disposa.blue/cmd/margo_pkg.(*mGocode).Call(0xc42008e080, 0x4c5db8, 0xc42010cac0, 0xc42000ae00, 0x3)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/m_gocode.go:76 +0x2dc
+disposa.blue/cmd/margo_pkg.(*Broker).call(0xc42000ae00, 0xc42010cac0, 0x667b20, 0xc42008e080)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:113 +0x9a
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:188 +0xda
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 1 [syscall]:
+syscall.Syscall(0x3, 0x0, 0xc420198000, 0x1000, 0x19, 0xc4200a9000, 0x5)
+	/usr/local/Cellar/go/1.7.1/libexec/src/syscall/asm_darwin_amd64.s:16 +0x5
+syscall.read(0x0, 0xc420198000, 0x1000, 0x1000, 0x23, 0x8ebca0, 0x3ef1e0)
+	/usr/local/Cellar/go/1.7.1/libexec/src/syscall/zsyscall_darwin_amd64.go:973 +0x55
+syscall.Read(0x0, 0xc420198000, 0x1000, 0x1000, 0xc4202d2000, 0x8ebca0, 0xc420122101)
+	/usr/local/Cellar/go/1.7.1/libexec/src/syscall/syscall_unix.go:161 +0x49
+os.(*File).read(0xc420030008, 0xc420198000, 0x1000, 0x1000, 0xc4200cb7f8, 0x73a000, 0x0)
+	/usr/local/Cellar/go/1.7.1/libexec/src/os/file_unix.go:228 +0x6a
+os.(*File).Read(0xc420030008, 0xc420198000, 0x1000, 0x1000, 0xea96, 0xc4201601d8, 0x1)
+	/usr/local/Cellar/go/1.7.1/libexec/src/os/file.go:101 +0x59
+bufio.(*Reader).fill(0xc420160120)
+	/usr/local/Cellar/go/1.7.1/libexec/src/bufio/bufio.go:97 +0x10c
+bufio.(*Reader).ReadSlice(0xc420160120, 0x4a0a, 0xc420160180, 0xc42013c0a0, 0xc4200cba40, 0xc4200cb8c8, 0x41e740)
+	/usr/local/Cellar/go/1.7.1/libexec/src/bufio/bufio.go:330 +0xb5
+bufio.(*Reader).ReadBytes(0xc420160120, 0xc42016010a, 0xc4200cba40, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/Cellar/go/1.7.1/libexec/src/bufio/bufio.go:408 +0x66
+disposa.blue/cmd/margo_pkg.(*Broker).accept(0xc42000ae00, 0xc420160180, 0xc42000ae00)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:128 +0x59
+disposa.blue/cmd/margo_pkg.(*Broker).Loop(0xc42000ae00, 0x4c0001)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:213 +0x156
+disposa.blue/cmd/margo_pkg.Main()
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:140 +0x769
+main.main()
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo/main.go:8 +0x14
+
+goroutine 13 [chan receive, 19 minutes]:
+disposa.blue/something-borrowed/gocode.new_file_reader.func1(0xc420030168)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:220 +0xa1
+created by disposa.blue/something-borrowed/gocode.new_file_reader
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/something-borrowed/gocode/utils.go:224 +0x8a
+
+goroutine 18 [chan receive]:
+disposa.blue/cmd/margo_pkg.init.2.func1()
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:114 +0x92
+created by disposa.blue/cmd/margo_pkg.init.2
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/g_autoinst.go:117 +0x35
+
+goroutine 14 [sleep, locked to thread]:
+time.Sleep(0x77359400)
+	/usr/local/Cellar/go/1.7.1/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.startOomKiller.func1(0x3e8)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:31 +0x166
+created by disposa.blue/cmd/margo_pkg.startOomKiller
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/oom.go:33 +0x3f
+
+goroutine 19 [sleep]:
+time.Sleep(0x6fc23ac00)
+	/usr/local/Cellar/go/1.7.1/libexec/src/runtime/time.go:59 +0xe1
+disposa.blue/cmd/margo_pkg.Main.func1(0x6fc23ac00, 0xc42000ae00, 0xc4200110b0)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:122 +0x40
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:131 +0x88b
+
+goroutine 20 [chan receive, 19 minutes]:
+disposa.blue/cmd/margo_pkg.Main.func2(0xc42000ae00)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:135 +0x7b
+created by disposa.blue/cmd/margo_pkg.Main
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/main.go:138 +0x739
+
+goroutine 52 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 53 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 54 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 55 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 56 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 57 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 58 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 59 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 60 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 61 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 62 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 63 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 64 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 65 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 66 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 67 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 68 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 70 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+goroutine 71 [chan receive]:
+disposa.blue/cmd/margo_pkg.(*Broker).worker(0xc42000ae00, 0xc420122050, 0xc420160180)
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:187 +0x8a
+created by disposa.blue/cmd/margo_pkg.(*Broker).Loop
+	/Users/iToto/Library/Application Support/Sublime Text 3/Packages/GoSublime/src/disposa.blue/cmd/margo_pkg/broker.go:209 +0x124
+
+
+
+** 2017-06-01 21:03:20.437196 **:
+GsComplete: broker: gocode_complete#mg9.autoken.ced26577-b5cd-4be2-afc6-7d5e575a6cb5 PANIC
+--------------------------------
+Gocode pkg: "github.com/iToto/codenamegen/cmd/codenamegen"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang", InstallSuffix:""}
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/iToto/codenamegen/data"
+Gocode pkg: "github.com/iToto/codenamegen/cmd/codenamegen"
+Gocode pkg: "github.com/iToto/codenamegen/data"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/entity"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/iToto/shampy"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/entity"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/iToto/shampy"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/iToto/shampy"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/service/customer"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode pkg: "github.com/DistalInc/authorized/cmd/authorized"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
+Gocode pkg: "github.com/DistalInc/authorized/service/user"
+Gocode env: gocode.margoEnv{LibPath:"/usr/local/Cellar/go/1.7.1/libexec/pkg/darwin_amd64:/Users/iToto/Dev/golang/pkg/darwin_amd64", GOOS:"darwin", GOARCH:"amd64", Compiler:"gc", GOROOT:"/usr/local/Cellar/go/1.7.1/libexec", GOPATH:"/Users/iToto/Dev/golang/", InstallSuffix:""}
